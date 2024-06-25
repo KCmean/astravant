@@ -2,7 +2,7 @@ import React from 'react'
 
 const ConBanOne = () => {
     return (
-        <>
+        <div>
             <div className="relative text-white bg-cover flex flex-col bg-center w-full h-screen" style={{ backgroundImage: "url('/concon.png')" }}>
                 <div className="mx-auto my-auto flex flex-col gap-8">
                     <div className="text-7xl">
@@ -18,7 +18,7 @@ const ConBanOne = () => {
 
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

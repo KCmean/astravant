@@ -2,7 +2,7 @@ import React from 'react'
 
 const Nsl = () => {
     return (
-        <>
+        <div>
             <div className="relative bg-cover flex flex-col bg-center w-full h-screen" style={{ backgroundImage: "url('/tow.png')" }}>
                 <div className="relative mx-auto my-auto">
                     <div className="flex flex-row justify-between mx-auto">
@@ -30,7 +30,7 @@ const Nsl = () => {
                 </div>
 
             </div>
-        </>
+        </div>
     )
 }
 

@@ -19,7 +19,7 @@ const ConUsBanTwo = () => {
     }, []);
 
     return (
-        <>
+        <div>
             <div className="relative bg-[#04236D] text-white bg-cover p-8 mx-auto my-auto flex flex-col bg-center w-full h-screen">
                 {show &&
                     <div className="mx-auto mt-14 text-6xl">
@@ -83,7 +83,7 @@ const ConUsBanTwo = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
