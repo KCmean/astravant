@@ -2,7 +2,7 @@ import React from 'react'
 
 const HomeBannerTwo = () => {
     return (
-        <>
+        <div>
             <div className="w-full bg-white p-8 ">
                 <div className="flex flex-row justify-between">
                     <div className="flex flex-col gap-6 my-auto leading-tight text-[#04236D]">
@@ -15,7 +15,7 @@ const HomeBannerTwo = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

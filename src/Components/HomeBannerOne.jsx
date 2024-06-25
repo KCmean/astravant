@@ -2,7 +2,7 @@ import React from 'react'
 
 const HomeBannerOne = () => {
     return (
-      <div>
+      <div >
         <div
           className="relative bg-cover flex flex-col bg-center w-full h-screen"
           style={{ backgroundImage: "url('/hpbg.png')" }}
@@ -27,10 +27,14 @@ const HomeBannerOne = () => {
               Meet Realty
             </h2>
           </div>
-          <div className="p-6 hover:bg-white transition duration-500 hover:text-black hover:cursor-pointer font-medium flex flex-col items-center justify-center text-white border-[4px] mb-20 border-white mx-auto">
-            <p>Find Your</p>
-            <p>Dream Home</p>
-          </div>
+          
+            <div className="p-6 hover:bg-white transition duration-500 hover:text-black hover:cursor-pointer font-medium flex flex-col items-center justify-center text-white border-[4px] mb-20 border-white mx-auto">
+              <a href='/rentalprop'>
+                <p>Find Your</p>
+                <p>Dream Home</p>
+              </a>  
+            </div>
+            
         </div>
       </div>
     );

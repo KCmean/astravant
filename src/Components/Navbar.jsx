@@ -26,12 +26,12 @@ const Navbar = () => {
   return (
     <div>
       {show && (
-        <nav className="fixed top-0 left-0 w-full bg-transparent text-white flex justify-between items-center p-4 pl-8 pr-8 z-10">
+        <nav className="fixed pt-10 top-0 left-0 w-full bg-transparent text-white flex justify-between items-center p-4 pl-10 pr-8 z-10 ">
           <a href="/">
-            <img src={logo} alt="Logo" className="h-20 " />
+            <img src={logo} alt="Logo" className="h-20 pl-2" />
           </a>
 
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4 ">
             <div className="flex space-x-4">
               <a href="/" className="hover:underline">
                 About us
